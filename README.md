@@ -72,30 +72,25 @@ IF(
 - 🎯 **Tailored Insights:** Provides specific salary information for job titles, regions, and schedule types.
 - **🔢 Formula Purpose:** This formula populates the table below, returning the median salary based on job title, country, and type specified.
 
-🍽️ Background Table
-
-![1_Salary_Dashboard_Screenshot1.png](/0_Resources/Images/1_Salary_Dashboard_Screenshot1.png)
 
 📉 Dashboard Implementation
 
-<img src="/0_Resources/Images/1_Salary_Dashboard_Job_Title.png" width="400" height="500" alt="Salary Dashboard Title">
+
+![Excel dashboard](/Excel_images/Excel_image_6.png)
 
 #### ⏰ Count of Job Schedule Type
 
 ```
-=FILTER(J2#,(NOT(ISNUMBER(SEARCH("and",J2#))+ISNUMBER(SEARCH(",",J2#))))*(J2#<>0))
+=FILTER(J2#,(NOT(ISNUMBER(SEARCH("and",J2#))+ISNUMBER(SEARCH(",",J2#))))*(J2#<>0)
 ```
 
 - 🔍 **Unique List Generation:** This Excel formula below employs the `FILTER()` function to exclude entries containing "and" or commas, and omit zero values.
 - **🔢 Formula Purpose:** This formula populates the table below, which gives us a list of unique job schedule types.
 
-🍽️ Background Table
-
-![1_Salary_Dashboard_Type.png](/0_Resources/Images/1_Salary_Dashboard_Screenshot2.png)
 
 📉 Dashboard Implementation:
 
-<img src="/0_Resources/Images/1_Salary_Dashboard_Type.png" width="350" height="500" alt="Salary Dashboard Type">
+![Excel dashboard](/Excel_images/Excel_image_6.png)
 
 ### ❎ Data Validation
 
@@ -105,6 +100,7 @@ IF(
     - 🎯 User input is restricted to predefined, validated schedule types
     - 🚫 Incorrect or inconsistent entries are prevented
     - 👥 Overall usability of the dashboard is enhanced
+
 
 
 ![Excel dashboard](/Excel_images/Excel_image_7.png)
