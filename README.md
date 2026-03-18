@@ -88,10 +88,6 @@ IF(
 - **🔢 Formula Purpose:** This formula populates the table below, which gives us a list of unique job schedule types.
 
 
-📉 Dashboard Implementation:
-
-![Excel dashboard](/Excel_images/Excel_image_6.png)
-
 ### ❎ Data Validation
 
 #### 🔍 Filtered List
