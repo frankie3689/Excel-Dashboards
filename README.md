@@ -33,8 +33,8 @@ The dataset used for this project contains real-world data science job informati
 ### 📉 Charts
 
 #### 📊 Data Science Job Salaries - Bar Chart
+![Excel dashboard](/Excel_images/Excel_image_2.png)
 
-<img src="/0_Resources/Images/1_Salary_Dashboard_Chart1.png" width="850" height="550" alt="Salary Dashboard Chart1">
 
 - 🛠️ **Excel Features:** Utilized bar chart feature (with formatted salary values) and optimized layout for clarity.
 - 🎨 **Design Choice:** Horizontal bar chart for visual comparison of median salaries.
