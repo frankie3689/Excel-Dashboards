@@ -9,7 +9,7 @@ This data job salary dashboard was created to help job seekers investigate salar
 The data provides a foundation for analyzing data using this powerful tool. It contains detailed information on job titles, salaries, locations, and essential skills.
 
 ### Dashboard File
-My final dashboard is in [Download Salary Dashboard](Excel_Dashboards/1_Salary_Dashboard.xlsx).
+My final dashboard is in [Download Salary Dashboard](/1_Salary_Dashboard.xlsx).
 
 ### Excel Skills Used
 
